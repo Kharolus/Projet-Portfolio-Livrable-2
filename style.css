@@ -1,0 +1,329 @@
+/* Style général du site */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section{
+    border-radius: 10px
+}
+
+body.frontend {
+    background-color: #6C9BCF;
+    padding: 20px;
+}
+
+body.backend {
+    background-color: #8AA899;
+    padding: 20px;
+}
+
+body.design {
+    background-color: #C8A2C8;
+    padding: 20px;
+}
+
+/* Hamburger Menu */
+
+#openBtn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+.sidenav {
+    z-index: 1000;
+}
+
+.sidenav .close {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e0e0e0;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #111;    
+}
+
+.sidenav ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav.active {
+    left:0;
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+/* Icone Burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px;
+}
+
+
+/* Header */
+header {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;   /* aligne verticalement */
+  justify-content: space-between; /* espace entre le logo et le menu */
+}
+
+.brand {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Section accueil / alpha */
+.alpha {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+.alpha h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.alpha p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.alpha .btn {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+/* Section services */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Section contact with bootstrap livrary */
+#contact {
+    background-color: #e0e0e0;
+    padding: 30px;
+    text-align: center;
+}
+
+#contact a {
+    color: blue;
+}
+
+
+/* Form for contact */
+#formContact {
+    background-color: #f0f0f0; 
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 0 auto; 
+}
+
+#formContact .form-group {
+    margin-bottom: 20px;
+}
+
+#formContact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#formContact .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#formContact .input-field:focus {
+    outline: none;
+    border-color: #6C9BCF; 
+    box-shadow: 0 0 5px rgba(108, 155, 207, 0.5);
+}
+
+#formContact .btn-submit {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formContact .btn-submit:hover {
+    background-color: green;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.contenu-footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+}
+
+.bloc {
+  width: 25%;
+  margin: 0 30px;
+}
+
+.footer-contact h3,
+.footer-services h3,
+.footer-horraires h3,
+.footer-medias h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.footer-contact p {
+  padding: 5px;
+}
+
+.liste-services,
+.liste-horaires,
+.liste-medias {
+  list-style-type: none;
+}
+
+.liste-services a {
+  text-decoration: none;
+  color: #333;
+}
+
+.list-services a:hover {
+  color: rgb(3, 3, 3);
+}
+
+footer img {
+  width: 20px;
+}
+
+
+
+
+/*************************** RESPONSIVE **************************/
+
+/* RESPONSIVE MOYEN */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* RESPONSIVE GRAND */
+@media only screen and (max-width: 992px) {
+   
+}
+
+/* RESPONSIVE TRES GRAND */
+@media only screen and (max-width: 1200px) {
+
+}

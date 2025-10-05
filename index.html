@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="icon" type="image/png" href="logo html.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Hamburger Menu -->
+<div id="mySidenav" class="sidenav">
+  <a id="closeBtn" href="#" class="close">×</a>
+  <ul>
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#accueil">Qui je suis ?</a></li>
+    <li><a href="#services">à propos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<a href="#" id="openBtn">
+  <span class="burger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+</a>
+
+<!--*********************  -->
+<!-- Header of the web page-->
+    <header>
+        <div class="container nav">
+            <div class="brand">Mon site</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="frontend.html">Front-End</a></li>
+                        <li><a href="backend.html">Back-end</a></li>
+                        <li><a href="Design.html">Design</a></li>
+                        
+                    </ul>
+                </nav>
+        </div>
+    </header>
+<!--*********************  -->
+<!-- The main of the page-->
+<main id="accueil">
+    <section class="alpha">
+        <div class="container">
+            <h1>Mon site portfolio</h1>
+            <p>Bonjour, je m'appelle <u>Charles</u>, je suis développeur <strong>fullstack</strong> fraîchement diplômé de la <strong>Skill4All School</strong>. Pendant ma formation, j'ai appris à travailler en front-end avec <em>HTML</em>, <em>CSS</em> et <em>JavaScript</em>, ainsi qu'en back-end avec <em>Node.js</em> et <em>PHP</em>.Je maîtrise aussi les bases de données <em>SQL</em> et <em>NoSQL</em>. Je suis motivé, curieux et prêt à commencer des missions pour créer des sites modernes, rapides et accessibles. N'hésitez pas à me contacter pour discuter d'un projet.</p>
+            <a class="btn" href="#Découvrir">Découvrir</a>
+        </div>
+    </section>
+<!--*********************  -->
+<!-- Card with my services and Contact-->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Ce que je propose</h2>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Front-end</strong></h5>
+                    <p class="card-text">Chargement rapide, aucune base de données, que du HTML/CSS...</p>
+                    <a href="frontend.html" class="btn btn-primary redirection">En savoir plus...</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Back-end</strong></h5>
+                    <p class="card-text">Changement ou mise à jour de base de donnée MySQL, connaiassance en PHP.</p>
+                     <a href="backend.html" class="btn btn-primary redirection">En savoir plus...</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Design</strong></h5>
+                    <p class="card-text">Conception de page web. Couleur/polices/texture/thème et autres...</p>
+                     <a href="Design.html" class="btn btn-primary redirection">En savoir plus...</a>
+                </div>
+            </div>   
+            </div>
+        </div>
+    </section>
+
+   <section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Écrivez-nous à <a href="mailto:testmail@skill4all.fr">testmail@skill4all.fr</a></p>
+
+        <!-- FORMULAIRE FICTIF -->
+        <form id="formContact">
+            <div class="form-group">
+                <label for="email">Adresse Mail</label>
+                <input type="email" id="email" class="input-field" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" class="input-field" placeholder="Mot de passe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="input-field" rows="5" placeholder="Écrivez votre projet Fullstack" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+    <script src="script.js"></script>
+<!--*********************  -->
+<!-- The Footer of the page -->
+    <footer>
+        <div class="contenu-footer">
+          <div class="bloc footer-services">
+            <h3>Nos Services</h3>
+            <ul class="liste-services">
+              <li><a href="#"></a>Maquettage web</li>
+              <li><a href="#"></a>Base de données</li>
+              <li><a href="#"></a>Optimisation</li>
+              <li><a href="#"></a>Desing</li>
+              <li><a href="#"></a>Référencement</li>
+            </ul>
+          </div>
+
+          <div class="bloc footer-services">
+            <h3>Restons en contact</h3>
+            <p>+33 06 12 34 56 67</p>
+            <p>testmail@skill4all.fr</p>
+            <p>12 rue de la Paix, Paris I 75001</p>
+          </div>
+
+          <div class="bloc footer-services">
+            <h3>Nos Horraires</h3>
+            <ul class="liste-horaires">
+              <li>✅Lun. 9h-18h</li>
+              <li>✅Mar. 9h-18h</li>
+              <li>✅Mer. 9h-18h</li>
+              <li>✅Jeu. 9h-18h</li>
+              <li>✅Ven. 9h-18h</li>
+              <li>❌Sam. Fermé</li>
+              <li>❌Dim. Fermé</li>
+            </ul>
+          </div>
+
+          <div class="bloc footer-services">
+            <h3>Nos media</h3>
+            <ul class="liste-medias">
+              <li>
+                <a
+                  href="#"><img src="logo X.png"alt="logo X"/>X(Twitter)</a>
+              </li>
+              <li>
+                <a href="#"><img src="logo instagram.png"alt="logo Instagram"/>Instagram</a>
+              </li>
+              <li>
+                <a href="#"><img src="logo facebook.png" alt="logo Facebook"/>Facebook</a>
+              </li>
+              <li>
+                <a href="#"><img src="logo github.png" alt="logo gitgub"/>Github</a>
+              </li>
+              <li>
+                <a href="#"><img src="logo youtube.png" alt="logo Youtube"/>Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+</main> 
+
+<!-- JAVA SCRIPT CODE -->
+<script>
+const liens = document.querySelectorAll(".redirection");
+
+liens.forEach(lien=>{
+    lien.addEventListener("click",function(event){
+
+         alert("Vous allez être redirigé vers une nouvelle page !");
+
+    });
+});
+</script>
+</body>
+</html>

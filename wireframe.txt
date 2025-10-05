@@ -1,0 +1,32 @@
++----------------------------------------------------------+
+|                     HEADER                               |
+|  [Mon site]     Index | Front-End | Back-End | Design    |
++----------------------------------------------------------+
+
+|                     SECTION ACCUEIL                      |
+|  [Titre : Mon site portfolio]                            |
+|  [Texte de présentation]                                 |
+|  [Bouton : Découvrir]                                    |
++----------------------------------------------------------+
+
+|                     SECTION SERVICES                     |
+|  [Titre : Ce que je propose]                             |
+|   ┌────────────┐ ┌────────────┐ ┌────────────┐           |
+|   | Front-End  | | Back-End   | | Design     |           |
+|   | texte...   | | texte...   | | texte...   |           |
+|   | bouton...  | | bouton...  | | bouton...  |           |
+|   └────────────┘ └────────────┘ └────────────┘           |
++----------------------------------------------------------+
+
+|                     SECTION CONTACT                      |
+|  [Titre : Contact]                                       |
+|  [Email]                                                 |
+|  [Formulaire :                                           |
+|     Champ mail                                           |
+|     Zone de texte                                        |
+|     Bouton envoyer ]                                     |
++----------------------------------------------------------+
+
+|                         FOOTER                           |
+| [Services] [Contact] [Horaires] [Réseaux Sociaux]        |
++----------------------------------------------------------+
